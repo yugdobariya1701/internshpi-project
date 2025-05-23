@@ -6,7 +6,7 @@ import google.generativeai as genai
 import json
 import re
 
-genai.configure(api_key="AIzaSyDEbwTXl_Sdfl3jQ9WEHJbEx_YnighCpYE")
+genai.configure(api_key="API")
 
 
 def extract_json_from_response(response_text):
